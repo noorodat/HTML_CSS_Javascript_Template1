@@ -86,7 +86,7 @@ if (sessionStorage.getItem("background")) {
 
 // Set the default background image
 else {
-    landingPage.style.backgroundImage = `(../images/Background.jpg)`;
+    landingPage.style.backgroundImage = `url(./images/Background.jpg)`;
 }
 
 // Create pop up with the image
