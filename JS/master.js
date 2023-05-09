@@ -275,7 +275,7 @@ reserOptions.forEach(option => {
             sessionStorage.clear();
 
             // set the default backgroud
-            landingPage.style.backgroundImage = `url("http://127.0.0.1:5500/images/Background.jpg")`;
+            landingPage.style.backgroundImage = `url("/images/Background.jpg")`;
 
             // set the default color for the settings button
             settingsBackground.style.backgroundColor = "white";
