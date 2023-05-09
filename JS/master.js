@@ -304,7 +304,7 @@ reserOptions.forEach(option => {
 // check if local/session storage is empty
 if(localStorage.length === 0 || sessionStorage.length === 0) {
 
-    landingPage.style.backgroundImage = `url("http://127.0.0.1:5500/images/Background.jpg")`;
+    landingPage.style.backgroundImage = `url("./images/Background.jpg")`;
     settingsBackground.style.backgroundColor = "ff0000c3";
     settingsHr.forEach(hr => {
         hr.style.backgroundColor = "#ff0000c3";
