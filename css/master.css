@@ -67,6 +67,8 @@ body {
 
 .settings-box.opened {
     left: 0;
+    overflow-y: scroll;
+    height: 100vh;
 }
 
 .settings-box .toggle-settings {
@@ -76,7 +78,12 @@ body {
     background-color: #FFF;
     text-align: center;
     cursor: pointer;
-    transition: var(--main-transition-duration);
+    transition: var(--main-transition-duration) ;
+}
+
+.settings-box .toggle-settings.opened {
+    right: 50%;
+    transform: translateX(50%);
 }
 
 .settings-box .toggle-settings .fa-gear {
