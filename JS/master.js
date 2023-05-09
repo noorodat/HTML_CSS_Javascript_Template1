@@ -14,9 +14,9 @@ document.querySelector(".toggle-settings .fa-gear").onclick = function () {
 
     // Make the box opened
     document.querySelector(".settings-box").classList.toggle("opened");
-    
-    // Change the toggle settings position
+
     document.querySelector(".toggle-settings").classList.toggle("opened");
+
 }
 
 // Switch Colors
@@ -89,7 +89,7 @@ if (sessionStorage.getItem("background")) {
 
 // Set the default background image
 else {
-    landingPage.style.backgroundImage = `url(./images/Background.jpg)`;
+    landingPage.style.backgroundImage = `(../images/Background.jpg)`;
 }
 
 // Create pop up with the image
