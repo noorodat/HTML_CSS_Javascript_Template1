@@ -86,7 +86,7 @@ if (sessionStorage.getItem("background")) {
 
 // Set the default background image
 else {
-    landingPage.style.backgroundImage = `./images/Background.jpg`;
+    landingPage.style.backgroundImage = `(../images/Background.jpg)`;
 }
 
 // Create pop up with the image
@@ -275,7 +275,7 @@ reserOptions.forEach(option => {
             sessionStorage.clear();
 
             // set the default backgroud
-            landingPage.style.backgroundImage = `url("/images/Background.jpg")`;
+            landingPage.style.backgroundImage = `url("./images/Background.jpg")`;
 
             // set the default color for the settings button
             settingsBackground.style.backgroundColor = "white";
