@@ -14,6 +14,9 @@ document.querySelector(".toggle-settings .fa-gear").onclick = function () {
 
     // Make the box opened
     document.querySelector(".settings-box").classList.toggle("opened");
+    
+    // Change the toggle settings position
+    document.querySelector(".toggle-settings").classList.toggle("opened");
 }
 
 // Switch Colors
